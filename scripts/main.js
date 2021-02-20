@@ -91,7 +91,7 @@ function nextPrev(thumbList, flag) {
         imgList[i] = imgList[i].href;
     }
     var position = imgList.indexOf(document.querySelector('.detail-image').src);
-    console.log(position);
+
     if (flag === 0) {
         if (position === 0) {
             position = imgList.length - 1;
